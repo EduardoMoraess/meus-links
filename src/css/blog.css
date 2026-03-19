@@ -15,3 +15,44 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+.bg-color{
+    background-color: var(--background);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background-secondary);
+}
+
+.logo{
+    color: var(--text);
+}
+
+.anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-secondary);
+
+    margin: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--text-secondary);
+    box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.762);
+}
+
+.titulo-info{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-info{
+    font-size: 1.2rem;
+    padding: 40px;
+}
